@@ -1,0 +1,47 @@
+Arguments: 
+  /home/abhi/.nvm/versions/node/v6.9.0/bin/node /home/abhi/.nvm/versions/node/v6.9.0/bin/yarn add morgan cookie-parser
+
+PATH: 
+  /home/abhi/.nvm/versions/node/v6.9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  6.9.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "todo-server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "body-parser": "~1.15.2",
+      "express": "~4.14.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.npmjs.org/body-parser: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy.tcs.com proxy.tcs.com:8080
+      at ClientRequest.onError (/home/abhi/.nvm/versions/node/v6.9.0/lib/node_modules/yarn/lib/cli.js:137261:17)
+      at ClientRequest.g (events.js:291:16)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at Socket.socketErrorListener (_http_client.js:310:9)
+      at emitOne (events.js:96:13)
+      at Socket.emit (events.js:188:7)
+      at connectErrorNT (net.js:1020:8)
+      at _combinedTickCallback (internal/process/next_tick.js:74:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
